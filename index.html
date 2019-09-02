@@ -3,15 +3,43 @@
   <head>
     <meta charset="UTF=8">
     <title>Welcome</title>
+    <!--links bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
     crossorigin="anonymous"/>
+    <!--links font awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" 
+    integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" 
+    crossorigin="anonymous">
+    <!-- links css-->
     <link href="home_style.css" rel="stylesheet" type="text/css">
   </head>
   <div class="container-fluid">
   <body>
     <h1 class="text-center">Hello World!</h1>
-    <p>Welcome to my homepage!</p>
+    <p class="text-center">Welcome to <span class="text-danger">MY</span> homepage!</p>
+    <button class="btn btn-primary btn-block"><i class="fa fa-thumbs-up"></i> Here is a random button</button>
+    <h3> testing wells:</h3>
+    <div class="row">
+      <div class="col-xs-6">
+        <h4>#left-well</h4>
+        <div class="well" id="left-well">
+          <button class="btn btn-default target" id="target1">#target1</button>
+          <button class="btn btn-default target" id="target2">#target2</button>
+          <button class="btn btn-default target" id="target3">#target3</button>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <h4>#right-well</h4>
+        <div class="well" id="right-well">
+          <button class="btn btn-default target" id="target4">#target4</button>
+          <button class="btn btn-default target" id="target5">#target5</button>
+          <button class="btn btn-default target" id="target6">#target6</button>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
   </body>
   </div>
 </html>
