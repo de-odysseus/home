@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACA,AAAA,EAAE,CAAC;EACC,KAAK,EAFI,KAAK;CAGjB;;AACD,AAAA,CAAC,CAAC;EACE,SAAS,EAAE,IAAI;CAClB",
-    "sources": [
-        "testGroundStyle.scss"
-    ],
-    "names": [],
-    "file": "testGroundStyle.css"
-}
